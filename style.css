@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* sideimage */
+.sideimg{
+    position: fixed;
+    right: 0;
+    top: 39%;
+}
+.sideimg img{
+    height: 200px;
+}
+/* sideimage */
+
+/* header */
+.header{
+    width: 100%;
+    background-image: linear-gradient( to right, #FF1E1E, #FF7771) ;
+}
+.header-area{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightside-item{
+    display: flex;
+    padding: 3px 4px 3px 8px;
+    background-color: aliceblue;
+    margin: 8px 0;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 13px;
+}
+.rightside-item2{
+    background-image: linear-gradient( to right, #FF1E1E, #FF7771) ;
+    margin-left: 10px;
+    padding: 3px 5px;
+    color: white;
+    border-radius: 4px;
+    font-size: 8px;
+}
+.rightside-item p{
+    margin: 0;
+}
+.header-item1{
+    display: flex;
+    flex-direction: row;
+}
+.header-item1 i {
+    color: white;
+    margin-right: 10px;
+}
+.header-item1 a{
+    color: white;
+    text-decoration: none;
+}
+.itemone{
+    margin-right: 50px;
+}
+/* header */
+
+/* menu */
+.menu-area{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+.menu-area-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-item{
+    margin-right: 40px;
+}
+.menu-item a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+.menu-item a:hover:after{
+    transform: scale(1);
+    transition: all linear 0.3s;
+}
+.menu-item a:hover{
+    color: #FF1E1E;
+    transition: all linear 0.3s;
+
+}
+.menu-item a::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #FF1E1E;
+    bottom: -5px;
+    left: 0;
+    border-radius: 5px;
+    transform: scale(0);
+}
+.menu-button{
+    padding: 14px 18px;
+    background-image: linear-gradient( to right, #FF1E1E, #FF7771) ;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+}
+.menu-button:hover{
+    background-image: linear-gradient( to right, #ff9292, #ff0d00) ;
+    transition: all 1s; 
+}
+.menu-button a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+/* menu */
+
+/* main */
+.main{
+    width: 100%;
+    height: 750px;
+    background: url(banner_bg\ \(1\).png);
+}
+.main-area{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.main-area-item1{
+    width: 38%;
+}
+.main-area-item1 h1{
+    font-size: 43px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+.main-area-item1 h1 span{
+    background: linear-gradient(to right, #ff1a1a, #FF7872);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 700;
+}
+.main-area-item1 h4{
+    font-size: 17px;
+    font-weight: 700;
+}
+.main-area-item1 h4 i{
+    color: #FF1E1E;
+    font-size: 20px;
+}
+.main-area-item1 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.main-area-item1 a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    background-image: linear-gradient( to right, #FF1E1E, #ff625a) ;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px 0;
+    margin-right: 15px;
+}
+.main-area-item1 a:hover{
+    background-image: linear-gradient( to right, #ffffff, #ffffff) ;
+    color: #FF1E1E;
+    transition: all 1s;
+}
+.main-area-item2{
+    width: 62%;
+    display: flex;
+    justify-content: end;
+}
+.main-area-item2 img{
+    width: 90%;
+    border-radius: 40px;
+}
+
+.iso-certified{
+    display: flex;
+    align-items: center;
+    margin-top: 15px ;
+}
+.iso-certified p{
+    font-weight: 600;
+}
+.iso-certified img{
+    margin-right: 10px;
+}
+/* main */
+
+
+
+/* FOOTER   */
+.footer{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer h1{
+    font-size: 80px;
+    font-weight: 700;
+}
